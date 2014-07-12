@@ -1,0 +1,21 @@
+{
+  "name": "recore-admin-ui",
+  "description": "RecoreAdmin's web interface",
+  "author": "Tarkus Liu <tarkus@tarkus.im>",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tarkus/recore-admin-ui.git"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "test": "brunch test"
+  },
+  "dependencies": {
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "css-brunch": ">= 1.0 < 1.8",
+    "uglify-js-brunch": ">= 1.0 < 1.8",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "auto-reload-brunch": ">= 1.0 < 1.8"
+  }
+}
