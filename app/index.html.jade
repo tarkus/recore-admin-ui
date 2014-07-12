@@ -1,0 +1,44 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='description' content='Recore Admin')
+
+    meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui")
+    meta(name="apple-mobile-web-app-capable" content="yes")
+    meta(name="apple-mobile-web-app-status-bar-style" content="black")
+
+    title #{title || 'Recore Admin'}
+
+    link(rel='stylesheet' href='stylesheets/vendor.css')
+    link(rel='stylesheet' href='stylesheets/app.css')
+
+    script(src='javascripts/vendor.js')
+    script(src='javascripts/templates.js')
+    script(src='javascripts/app.js')
+
+    script(src='bootstrap.js')
+    script(src='socket.js')
+
+    script.
+      function selectText(element) {
+        if (document.selection) {
+          var range = document.body.createTextRange();
+          range.moveToElementText(element);
+          range.select();
+        } else if (window.getSelection) {
+          var range = document.createRange();
+          range.selectNode(element);
+          window.getSelection().addRange(range);
+        }
+      }
+    
+      $.fn.datepicker.defaults.format = 'yyyy-mm-dd'
+
+      var config = require('config');
+      var App = require('initialize');
+      var count = [];
+
+  body
+    #wrapper
+

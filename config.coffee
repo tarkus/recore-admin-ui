@@ -1,9 +1,27 @@
 exports.config =
-  # See http://brunch.io/#documentation for docs.
   files:
     javascripts:
-      joinTo: 'app.js'
+      joinTo:
+        'javascripts/vendor.js': /^(bower_components|vendor)/
+        'javascripts/app.js': /^app/
+      before: [
+        'bower_components/jquery/dist/jquery'
+      ]
     stylesheets:
-      joinTo: 'app.css'
+      joinTo:
+        'stylesheets/vendor.css': /^(bower_components|vendor)/
+        'stylesheets/app.css': /^app\/styles/
+
     templates:
-      joinTo: 'app.js'
+      defaultExtension: '.jade'
+      joinTo:
+        'javascripts/templates.js': /^app/
+
+  plugins:
+
+    jade:
+      options:
+        pretty: true
+
+    static_jade:
+      extension: '.html.jade'
