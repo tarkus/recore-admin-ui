@@ -126,7 +126,7 @@ class Schema extends Spine.Controller
   create_index: =>
     return if @create_index_btn.attr 'disabled'
     return unless @selected_field
-    $.getJSON "#{base_uri}/create_index/#{@schema.name}/#{@selected_field}", (json) =>
+    $.getJSON "/create_index/#{@schema.name}/#{@selected_field}", (json) =>
       @schema.task = json
       @task_init()
     @selected_field = null
@@ -136,7 +136,7 @@ class Schema extends Spine.Controller
     return if @remove_index_btn.attr 'disabled'
     return unless @remove_index_property_field.val()
 
-    $.getJSON "#{base_uri}/remove_index/#{@schema.name}/#{@remove_index_property_field.val()}", (json) =>
+    $.getJSON "/remove_index/#{@schema.name}/#{@remove_index_property_field.val()}", (json) =>
       @schema.task = json
       @task_init()
     @remove_index_property_field.val ''
@@ -145,7 +145,7 @@ class Schema extends Spine.Controller
     return if @remove_property_btn.attr 'disabled'
     return unless @remove_property_field.val()
 
-    $.getJSON "#{base_uri}/remove_property/#{@schema.name}/#{@remove_property_field.val()}", (json) =>
+    $.getJSON "/remove_property/#{@schema.name}/#{@remove_property_field.val()}", (json) =>
       @schema.task = json
       @task_init()
     @remove_property_field.val ''
@@ -153,7 +153,7 @@ class Schema extends Spine.Controller
   task_resume: =>
     return if @btn_play.attr 'disabled'
     return unless @schema.task.id
-    $.getJSON "#{base_uri}/task/resume/#{@schema.task.id}", (json) =>
+    $.getJSON "/task/resume/#{@schema.task.id}", (json) =>
       @noprogress.css 'display', 'none'
       @progress.css 'display', 'block'
 
@@ -168,7 +168,7 @@ class Schema extends Spine.Controller
   task_stop: =>
     return if @btn_stop.attr 'disabled'
     return unless @schema.task.id
-    $.getJSON "#{base_uri}/task/stop/#{@schema.task.id}", (json) =>
+    $.getJSON "/task/stop/#{@schema.task.id}", (json) =>
       @progress.css 'display', 'none'
       @noprogress.css 'display', 'block'
 
@@ -183,7 +183,7 @@ class Schema extends Spine.Controller
   task_pause: =>
     return if @btn_pause.attr 'disabled'
     return unless @schema.task.id
-    $.getJSON "#{base_uri}/task/pause/#{@schema.task.id}", (json) =>
+    $.getJSON "/task/pause/#{@schema.task.id}", (json) =>
       @noprogress.css 'display', 'none'
       @progress.css 'display', 'block'
 
@@ -199,7 +199,7 @@ class Schema extends Spine.Controller
   task_dump: =>
     return if @btn_dump.attr 'disabled'
     return unless @schema.task.id
-    page = window.open "#{base_uri}/task/dump/#{@schema.task.id}"
+    page = window.open "/task/dump/#{@schema.task.id}"
     page.document.title = "Task Dump - #{@schema.task.id}"
 
 

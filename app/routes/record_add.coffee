@@ -46,7 +46,7 @@ class RecordAdd extends Spine.Controller
     @record.updateAttributes
       model: @schema.name
       properties: properties
-    , url: "#{base_uri}/record/#{@schema.name}"
+    , url: "/record/#{@schema.name}"
 
   render: =>
     @replace @template("record_add") record: @record, schema: @schema

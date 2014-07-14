@@ -82,11 +82,12 @@ class RecoreAdmin extends Spine.Controller
 $ ->
   $.ajaxSetup cache: false
 
+  $.ajaxPrefilter (options, originalOptions, xhr) =>
+    options.url = "#{base_uri}#{options.url}" unless options.url.indexOf("http://") is 0
+    options
+
   app = new RecoreAdmin el: $("#wrapper")
   Spine.Route.setup()
-
-  for name, model of Spine.Models
-    model.url = "#{base_uri}/#{model.url}"
 
   window.init_socket = ->
     @socket.on 'task progress', (data) ->

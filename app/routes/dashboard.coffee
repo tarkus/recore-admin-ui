@@ -20,7 +20,7 @@ class Dashboard extends Spine.Controller
     return if @stack.swap.scene is 'dashboard'
     @stack.swap.scene = 'dashboard'
     Widget.deleteAll()
-    Widget.fetch url: "#{base_uri}/stats"
+    Widget.fetch url: "/stats"
     @widgets.html ''
     super
 
@@ -42,7 +42,7 @@ class Dashboard extends Spine.Controller
     node = @node_input.val()
     return unless node
     Widget.deleteAll()
-    Widget.fetch url: "#{base_uri}/stats?node=#{encodeURIComponent node}"
+    Widget.fetch url: "/stats?node=#{encodeURIComponent node}"
     @widgets.html ''
     
   render: =>

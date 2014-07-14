@@ -91,7 +91,7 @@
   globals.require.brunch = true;
 })();
 require.register("config", function(exports, require, module) {
-module.exports = {"npm_config_save_dev":"","npm_config_viewer":"man","npm_config_browser":"","npm_package_gitHead":"788fd684131c5f063125d881af7381f3484f5f0e","BOLD":"\u001b[1m","GREEN":"\u001b[38;5;220m","npm_config_rollback":"true","rvm_bin_path":"/Users/tarkus/.rvm/bin","TERM_PROGRAM":"iTerm.app","NODE":"/usr/local/bin/node","npm_config_usage":"","npm_package_homepage":"https://github.com/tarkus/recore-admin-ui","GEM_HOME":"/Users/tarkus/.rvm/gems/ruby-2.1.1","RESET":"\u001b(B\u001b[m","npm_config_globalignorefile":"/usr/local/etc/npmignore","npm_package_devDependencies_clean_css_brunch":">= 1.0 < 1.8","TERM":"xterm-256color","SHELL":"/bin/bash","npm_config_shell":"/bin/bash","npm_config_init_author_url":"","npm_config_shrinkwrap":"true","npm_config_parseable":"","IRBRC":"/Users/tarkus/.rvm/rubies/ruby-2.1.1/.irbrc","TMPDIR":"/var/folders/1s/7kj4mh7s1y1c471xz_fz25cr0000gp/T/","npm_config_init_license":"ISC","npm_config_email":"tarkus.nnkh@gmail.com","DOCKER_HOST":"tcp://localhost:4243","Apple_PubSub_Socket_Render":"/tmp/launch-i4oENU/Render","npm_config_sign_git_tag":"","npm_config_init_author_email":"","npm_config_cache_max":"null","npm_config_long":"","npm_config_local_address":"","npm_config_git_tag_version":"true","npm_config_cert":"","MY_RUBY_HOME":"/Users/tarkus/.rvm/rubies/ruby-2.1.1","npm_config_npat":"","npm_config_fetch_retries":"2","npm_config_registry":"https://registry.npmjs.org/","ORANGE":"\u001b[38;5;172m","npm_package_repository_url":"git@github.com:tarkus/recore-admin-ui.git","npm_config_versions":"","npm_config_message":"%s","npm_config_key":"","npm_package_readmeFilename":"README.md","npm_package_devDependencies_css_brunch":">= 1.0 < 1.8","npm_package_description":"A web interface for RecoreAdmin","USER":"tarkus","_system_type":"Darwin","npm_config_globalconfig":"/usr/local/etc/npmrc","npm_config_always_auth":"","npm_package_devDependencies_jade_brunch":"^1.8.1","rvm_path":"/Users/tarkus/.rvm","npm_package_scripts_prepublish":"brunch build --production","TERMCAP":"SC|screen-256color|VT 100/ANSI X3.64 virtual terminal:\\\n\t:DO=\\E[%dB:LE=\\E[%dD:RI=\\E[%dC:UP=\\E[%dA:bs:bt=\\E[Z:\\\n\t:cd=\\E[J:ce=\\E[K:cl=\\E[H\\E[J:cm=\\E[%i%d;%dH:ct=\\E[3g:\\\n\t:do=^J:nd=\\E[C:pt:rc=\\E8:rs=\\Ec:sc=\\E7:st=\\EH:up=\\EM:\\\n\t:le=^H:bl=^G:cr=^M:it#8:ho=\\E[H:nw=\\EE:ta=^I:is=\\E)0:\\\n\t:li#30:co#110:am:xn:xv:LP:sr=\\EM:al=\\E[L:AL=\\E[%dL:\\\n\t:cs=\\E[%i%d;%dr:dl=\\E[M:DL=\\E[%dM:dc=\\E[P:DC=\\E[%dP:\\\n\t:im=\\E[4h:ei=\\E[4l:mi:IC=\\E[%d@:ks=\\E[?1h\\E=:\\\n\t:ke=\\E[?1l\\E>:vi=\\E[?25l:ve=\\E[34h\\E[?25h:vs=\\E[34l:\\\n\t:ti=\\E[?1049h:te=\\E[?1049l:us=\\E[4m:ue=\\E[24m:so=\\E[3m:\\\n\t:se=\\E[23m:mb=\\E[5m:md=\\E[1m:mr=\\E[7m:me=\\E[m:ms:\\\n\t:Co#8:pa#64:AF=\\E[3%dm:AB=\\E[4%dm:op=\\E[39;49m:AX:\\\n\t:vb=\\Eg:G0:as=\\E(0:ae=\\E(B:\\\n\t:ac=\\140\\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:\\\n\t:po=\\E[5i:pf=\\E[4i:k0=\\E[10~:k1=\\EOP:k2=\\EOQ:k3=\\EOR:\\\n\t:k4=\\EOS:k5=\\E[15~:F3=\\E[1;2P:F4=\\E[1;2Q:F5=\\E[1;2R:\\\n\t:F6=\\E[1;2S:F7=\\E[15;2~:F8=\\E[17;2~:F9=\\E[18;2~:\\\n\t:FA=\\E[19;2~:kb=^H:K2=\\EOE:kB=\\E[Z:kF=\\E[1;2B:\\\n\t:kR=\\E[1;2A:*4=\\E[3;2~:*7=\\E[1;2F:#2=\\E[1;2H:#3=\\E[2;2~:\\\n\t:#4=\\E[1;2D:%c=\\E[6;2~:%e=\\E[5;2~:%i=\\E[1;2C:kh=\\E[1~:\\\n\t:@1=\\E[1~:kH=\\E[4~:@7=\\E[4~:kN=\\E[6~:kP=\\E[5~:kI=\\E[2~:\\\n\t:kD=\\E[3~:ku=\\EOA:kd=\\EOB:kr=\\EOC:kl=\\EOD:km:","SSH_AUTH_SOCK":"/tmp/launch-FCx4T4/Listeners","__CF_USER_TEXT_ENCODING":"0x1F6:0:0","npm_execpath":"/usr/local/lib/node_modules/npm/bin/npm-cli.js","npm_config_cache_lock_retries":"10","npm_package_author_name":"Tarkus Liu","npm_config_heading":"npm","npm_config_proprietary_attribs":"true","npm_config_fetch_retry_mintimeout":"10000","npm_package_devDependencies_javascript_brunch":">= 1.0 < 1.8","rvm_prefix":"/Users/tarkus","npm_config_json":"","npm_config_argv":"{\"remain\":[],\"cooked\":[\"start\"],\"original\":[\"start\"]}","MAGENTA":"\u001b[91m","__CHECKFIX1436934":"1","PATH":"/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/tarkus/Code/recore-admin-ui/node_modules/.bin:/usr/local/bin:/usr/local/heroku/bin:/usr/local/sbin:/usr/local/bin:/Users/tarkus/.bin:/Users/tarkus/.rvm/gems/ruby-2.1.1/bin:/Users/tarkus/.rvm/gems/ruby-2.1.1@global/bin:/Users/tarkus/.rvm/rubies/ruby-2.1.1/bin:/usr/local/sbin:/usr/local/bin:/Users/tarkus/.bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/tarkus/.rvm/bin:/Users/tarkus/Development/adt-bundle/sdk/platform-tools:/Users/tarkus/Development/adt-bundle/sdk/tools:/Users/tarkus/Development/adt-bundle/sdk/platform-tools:/Users/tarkus/Development/adt-bundle/sdk/tools:/Users/tarkus/.rvm/bin","STY":"553.ttys000.Mephisto","npm_config_https_proxy":"","npm_config_engine_strict":"","npm_config_description":"true","_":"/Users/tarkus/Code/recore-admin-ui/node_modules/.bin/brunch","npm_config_userconfig":"/Users/tarkus/.npmrc","npm_config_init_module":"/Users/tarkus/.npm-init.js","PWD":"/Users/tarkus/Code/recore-admin-ui","npm_config_user":"","npm_config_node_version":"v0.10.26","npm_package_bugs_url":"https://github.com/tarkus/recore-admin-ui/issues","npm_package_devDependencies_auto_reload_brunch":">= 1.0 < 1.8","npm_lifecycle_event":"start","npm_config_save":"","npm_config_editor":"vi","npm_package_repository_type":"git","npm_package_name":"recore-admin-ui","LANG":"zh_CN.UTF-8","npm_config_tag":"latest","npm_package_devDependencies_stylus_brunch":"^1.8.1","ITERM_PROFILE":"Default","npm_config_global":"","npm_package_scripts_start":"brunch watch --server","npm_config_optional":"true","npm_config_username":"tarkus","_system_arch":"x86_64","npm_config_force":"","npm_config_bin_links":"true","npm_config_searchopts":"","npm_package_devDependencies_coffee_script_brunch":"^1.8.0","_system_version":"10.9","npm_config_depth":"null","npm_config_searchsort":"name","npm_config_rebuild_bundle":"true","npm_package_version":"0.4.13","npm_config_unicode":"true","rvm_version":"1.25.22 (stable)","SHLVL":"3","HOME":"/Users/tarkus","npm_config_fetch_retry_maxtimeout":"60000","npm_package_devDependencies_static_jade_brunch":"^1.7.0","npm_package_scripts_test":"brunch test","PURPLE":"\u001b[38;5;141m","npm_config_strict_ssl":"true","npm_config_loglevel":"http","npm_config_ca":"","npm_package_devDependencies_uglify_js_brunch":">= 1.0 < 1.8","npm_config_save_exact":"","npm_config_group":"20","npm_config_fetch_retry_factor":"10","npm_config_dev":"","npm_package_devDependencies_brunch":"^1.7.14","npm_config_version":"","npm_config_cache_lock_stale":"60000","npm_config_cache_min":"10","ITERM_SESSION_ID":"w0t0p0","npm_config_searchexclude":"","npm_config_cache":"/Users/tarkus/.npm","LOGNAME":"tarkus","npm_lifecycle_script":"brunch watch --server","npm_config_color":"true","WINDOW":"8","npm_config_proxy":"","npm_package_devDependencies_jsenv_brunch":"^1.4.2","npm_package_author_email":"tarkus@tarkus.im","GEM_PATH":"/Users/tarkus/.rvm/gems/ruby-2.1.1:/Users/tarkus/.rvm/gems/ruby-2.1.1@global","npm_package_devDependencies_coffee_script":"^1.7.1","npm_config_save_optional":"","npm_config_user_agent":"node/v0.10.26 darwin x64","npm_config_ignore_scripts":"","npm_config_cache_lock_wait":"10000","npm_config_production":"","npm_config_save_bundle":"","npm_config_umask":"18","npm_config_init_author_name":"","npm_config_git":"git","npm_config_unsafe_perm":"true","npm_config_tmp":"/var/folders/1s/7kj4mh7s1y1c471xz_fz25cr0000gp/T/","npm_config_onload_script":"","_system_name":"OSX","npm_node_execpath":"/usr/local/bin/node","npm_config_link":"","npm_config_prefix":"/usr/local","WHITE":"\u001b[30m"}
+module.exports = {"npm_config_save_dev":"","npm_config_viewer":"man","npm_config_browser":"","npm_package_gitHead":"f443ada3648025068ffd57059c245cb6779a1a6b","BOLD":"\u001b[1m","GREEN":"\u001b[38;5;220m","npm_config_rollback":"true","rvm_bin_path":"/Users/tarkus/.rvm/bin","TERM_PROGRAM":"iTerm.app","NODE":"/usr/local/bin/node","npm_config_usage":"","npm_package_homepage":"https://github.com/tarkus/recore-admin-ui","GEM_HOME":"/Users/tarkus/.rvm/gems/ruby-2.1.1","RESET":"\u001b(B\u001b[m","npm_config_globalignorefile":"/usr/local/etc/npmignore","npm_package_devDependencies_clean_css_brunch":">= 1.0 < 1.8","TERM":"xterm-256color","SHELL":"/bin/bash","npm_config_shell":"/bin/bash","npm_config_init_author_url":"","npm_config_shrinkwrap":"true","npm_config_parseable":"","IRBRC":"/Users/tarkus/.rvm/rubies/ruby-2.1.1/.irbrc","TMPDIR":"/var/folders/1s/7kj4mh7s1y1c471xz_fz25cr0000gp/T/","npm_config_init_license":"ISC","npm_config_email":"tarkus.nnkh@gmail.com","DOCKER_HOST":"tcp://localhost:4243","Apple_PubSub_Socket_Render":"/tmp/launch-i4oENU/Render","npm_config_sign_git_tag":"","npm_config_init_author_email":"","npm_config_cache_max":"null","npm_config_long":"","npm_config_local_address":"","npm_config_git_tag_version":"true","npm_config_cert":"","MY_RUBY_HOME":"/Users/tarkus/.rvm/rubies/ruby-2.1.1","npm_config_npat":"","npm_config_fetch_retries":"2","npm_config_registry":"https://registry.npmjs.org/","ORANGE":"\u001b[38;5;172m","npm_package_repository_url":"git@github.com:tarkus/recore-admin-ui.git","npm_config_versions":"","npm_config_message":"%s","npm_config_key":"","npm_package_readmeFilename":"README.md","npm_package_devDependencies_css_brunch":">= 1.0 < 1.8","npm_package_description":"A web interface for RecoreAdmin","USER":"tarkus","_system_type":"Darwin","npm_config_globalconfig":"/usr/local/etc/npmrc","npm_config_always_auth":"","npm_package_devDependencies_jade_brunch":"^1.8.1","rvm_path":"/Users/tarkus/.rvm","npm_package_scripts_prepublish":"brunch build --production","TERMCAP":"SC|screen-256color|VT 100/ANSI X3.64 virtual terminal:\\\n\t:DO=\\E[%dB:LE=\\E[%dD:RI=\\E[%dC:UP=\\E[%dA:bs:bt=\\E[Z:\\\n\t:cd=\\E[J:ce=\\E[K:cl=\\E[H\\E[J:cm=\\E[%i%d;%dH:ct=\\E[3g:\\\n\t:do=^J:nd=\\E[C:pt:rc=\\E8:rs=\\Ec:sc=\\E7:st=\\EH:up=\\EM:\\\n\t:le=^H:bl=^G:cr=^M:it#8:ho=\\E[H:nw=\\EE:ta=^I:is=\\E)0:\\\n\t:li#30:co#110:am:xn:xv:LP:sr=\\EM:al=\\E[L:AL=\\E[%dL:\\\n\t:cs=\\E[%i%d;%dr:dl=\\E[M:DL=\\E[%dM:dc=\\E[P:DC=\\E[%dP:\\\n\t:im=\\E[4h:ei=\\E[4l:mi:IC=\\E[%d@:ks=\\E[?1h\\E=:\\\n\t:ke=\\E[?1l\\E>:vi=\\E[?25l:ve=\\E[34h\\E[?25h:vs=\\E[34l:\\\n\t:ti=\\E[?1049h:te=\\E[?1049l:us=\\E[4m:ue=\\E[24m:so=\\E[3m:\\\n\t:se=\\E[23m:mb=\\E[5m:md=\\E[1m:mr=\\E[7m:me=\\E[m:ms:\\\n\t:Co#8:pa#64:AF=\\E[3%dm:AB=\\E[4%dm:op=\\E[39;49m:AX:\\\n\t:vb=\\Eg:G0:as=\\E(0:ae=\\E(B:\\\n\t:ac=\\140\\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:\\\n\t:po=\\E[5i:pf=\\E[4i:k0=\\E[10~:k1=\\EOP:k2=\\EOQ:k3=\\EOR:\\\n\t:k4=\\EOS:k5=\\E[15~:F3=\\E[1;2P:F4=\\E[1;2Q:F5=\\E[1;2R:\\\n\t:F6=\\E[1;2S:F7=\\E[15;2~:F8=\\E[17;2~:F9=\\E[18;2~:\\\n\t:FA=\\E[19;2~:kb=^H:K2=\\EOE:kB=\\E[Z:kF=\\E[1;2B:\\\n\t:kR=\\E[1;2A:*4=\\E[3;2~:*7=\\E[1;2F:#2=\\E[1;2H:#3=\\E[2;2~:\\\n\t:#4=\\E[1;2D:%c=\\E[6;2~:%e=\\E[5;2~:%i=\\E[1;2C:kh=\\E[1~:\\\n\t:@1=\\E[1~:kH=\\E[4~:@7=\\E[4~:kN=\\E[6~:kP=\\E[5~:kI=\\E[2~:\\\n\t:kD=\\E[3~:ku=\\EOA:kd=\\EOB:kr=\\EOC:kl=\\EOD:km:","SSH_AUTH_SOCK":"/tmp/launch-FCx4T4/Listeners","__CF_USER_TEXT_ENCODING":"0x1F6:0:0","npm_execpath":"/usr/local/lib/node_modules/npm/bin/npm-cli.js","npm_config_cache_lock_retries":"10","npm_package_author_name":"Tarkus Liu","npm_config_heading":"npm","npm_config_proprietary_attribs":"true","npm_config_fetch_retry_mintimeout":"10000","npm_package_devDependencies_javascript_brunch":">= 1.0 < 1.8","rvm_prefix":"/Users/tarkus","npm_config_json":"","npm_config_argv":"{\"remain\":[],\"cooked\":[\"start\"],\"original\":[\"start\"]}","MAGENTA":"\u001b[91m","__CHECKFIX1436934":"1","PATH":"/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/tarkus/Code/recore-admin-ui/node_modules/.bin:/usr/local/bin:/usr/local/heroku/bin:/usr/local/sbin:/usr/local/bin:/Users/tarkus/.bin:/Users/tarkus/.rvm/gems/ruby-2.1.1/bin:/Users/tarkus/.rvm/gems/ruby-2.1.1@global/bin:/Users/tarkus/.rvm/rubies/ruby-2.1.1/bin:/usr/local/sbin:/usr/local/bin:/Users/tarkus/.bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/tarkus/.rvm/bin:/Users/tarkus/Development/adt-bundle/sdk/platform-tools:/Users/tarkus/Development/adt-bundle/sdk/tools:/Users/tarkus/Development/adt-bundle/sdk/platform-tools:/Users/tarkus/Development/adt-bundle/sdk/tools:/Users/tarkus/.rvm/bin","STY":"553.ttys000.Mephisto","npm_config_https_proxy":"","npm_config_engine_strict":"","npm_config_description":"true","_":"/Users/tarkus/Code/recore-admin-ui/node_modules/.bin/brunch","npm_config_userconfig":"/Users/tarkus/.npmrc","npm_config_init_module":"/Users/tarkus/.npm-init.js","PWD":"/Users/tarkus/Code/recore-admin-ui","npm_config_user":"","npm_config_node_version":"v0.10.26","npm_package_bugs_url":"https://github.com/tarkus/recore-admin-ui/issues","npm_package_devDependencies_auto_reload_brunch":">= 1.0 < 1.8","npm_lifecycle_event":"start","npm_config_save":"","npm_config_editor":"vi","npm_package_repository_type":"git","npm_package_name":"recore-admin-ui","LANG":"zh_CN.UTF-8","npm_config_tag":"latest","npm_package_devDependencies_stylus_brunch":"^1.8.1","ITERM_PROFILE":"Default","npm_config_global":"","npm_package_scripts_start":"brunch watch --server","npm_config_optional":"true","npm_config_username":"tarkus","_system_arch":"x86_64","npm_config_force":"","npm_config_bin_links":"true","npm_config_searchopts":"","npm_package_devDependencies_coffee_script_brunch":"^1.8.0","_system_version":"10.9","npm_config_depth":"null","npm_config_searchsort":"name","npm_config_rebuild_bundle":"true","npm_package_version":"0.4.22","npm_config_unicode":"true","rvm_version":"1.25.22 (stable)","SHLVL":"3","HOME":"/Users/tarkus","npm_config_fetch_retry_maxtimeout":"60000","npm_package_devDependencies_static_jade_brunch":"^1.7.0","npm_package_scripts_test":"brunch test","PURPLE":"\u001b[38;5;141m","npm_config_strict_ssl":"true","npm_config_loglevel":"http","npm_config_ca":"","npm_package_devDependencies_uglify_js_brunch":">= 1.0 < 1.8","npm_config_save_exact":"","npm_config_group":"20","npm_config_fetch_retry_factor":"10","npm_config_dev":"","npm_package_devDependencies_brunch":"^1.7.14","npm_config_version":"","npm_config_cache_lock_stale":"60000","npm_config_cache_min":"10","ITERM_SESSION_ID":"w0t0p0","npm_config_searchexclude":"","npm_config_cache":"/Users/tarkus/.npm","LOGNAME":"tarkus","npm_lifecycle_script":"brunch watch --server","npm_config_color":"true","WINDOW":"8","npm_config_proxy":"","npm_package_devDependencies_jsenv_brunch":"^1.4.2","npm_package_author_email":"tarkus@tarkus.im","GEM_PATH":"/Users/tarkus/.rvm/gems/ruby-2.1.1:/Users/tarkus/.rvm/gems/ruby-2.1.1@global","npm_package_devDependencies_coffee_script":"^1.7.1","npm_config_save_optional":"","npm_config_user_agent":"node/v0.10.26 darwin x64","npm_config_ignore_scripts":"","npm_config_cache_lock_wait":"10000","npm_config_production":"","npm_config_save_bundle":"","npm_config_umask":"18","npm_config_init_author_name":"","npm_config_git":"git","npm_config_unsafe_perm":"true","npm_config_tmp":"/var/folders/1s/7kj4mh7s1y1c471xz_fz25cr0000gp/T/","npm_config_onload_script":"","_system_name":"OSX","npm_node_execpath":"/usr/local/bin/node","npm_config_link":"","npm_config_prefix":"/usr/local","WHITE":"\u001b[30m"}
 });
 
 ;require.register("initialize", function(exports, require, module) {
@@ -220,19 +220,22 @@ RecoreAdmin = (function(_super) {
 })(Spine.Controller);
 
 $(function() {
-  var app, model, name, _ref;
+  var app;
   $.ajaxSetup({
     cache: false
   });
+  $.ajaxPrefilter((function(_this) {
+    return function(options, originalOptions, xhr) {
+      if (options.url.indexOf("http://") !== 0) {
+        options.url = "" + base_uri + options.url;
+      }
+      return options;
+    };
+  })(this));
   app = new RecoreAdmin({
     el: $("#wrapper")
   });
   Spine.Route.setup();
-  _ref = Spine.Models;
-  for (name in _ref) {
-    model = _ref[name];
-    model.url = "" + base_uri + "/" + model.url;
-  }
   window.init_socket = function() {
     return this.socket.on('task progress', function(data) {
       var schema;
@@ -368,7 +371,7 @@ Dashboard = (function(_super) {
     this.stack.swap.scene = 'dashboard';
     Widget.deleteAll();
     Widget.fetch({
-      url: "" + base_uri + "/stats"
+      url: "/stats"
     });
     this.widgets.html('');
     return Dashboard.__super__.active.apply(this, arguments);
@@ -412,7 +415,7 @@ Dashboard = (function(_super) {
     }
     Widget.deleteAll();
     Widget.fetch({
-      url: "" + base_uri + "/stats?node=" + (encodeURIComponent(node))
+      url: "/stats?node=" + (encodeURIComponent(node))
     });
     return this.widgets.html('');
   };
@@ -490,7 +493,7 @@ Finder = (function(_super) {
     this.result.html('');
     self = this;
     return $.ajax({
-      url: "" + base_uri + "/util/finder",
+      url: "/util/finder",
       type: 'POST',
       data: {
         key: this.key_input.val()
@@ -661,7 +664,7 @@ Loader = (function(_super) {
     selected_model = encodeURIComponent(this.model_selection.val());
     key = this.key_input.val();
     return Schema.fetch({
-      url: "" + base_uri + "/util/loader?model=" + selected_model + "&key=" + key
+      url: "/util/loader?model=" + selected_model + "&key=" + key
     });
   };
 
@@ -892,7 +895,7 @@ RecordAdd = (function(_super) {
       model: this.schema.name,
       properties: properties
     }, {
-      url: "" + base_uri + "/record/" + this.schema.name
+      url: "/record/" + this.schema.name
     });
   };
 
@@ -939,7 +942,7 @@ RecordDelete = (function(_super) {
 
   RecordDelete.prototype.submit = function() {
     return this.record.destroy({
-      url: "" + base_uri + "/record/" + this.record.model + "/" + this.record.id
+      url: "/record/" + this.record.model + "/" + this.record.id
     });
   };
 
@@ -1044,7 +1047,7 @@ RecordEdit = (function(_super) {
       model: this.schema.name,
       properties: properties
     }, {
-      url: "" + base_uri + "/record/" + this.schema.name
+      url: "/record/" + this.schema.name
     });
   };
 
@@ -1220,7 +1223,7 @@ Record = (function(_super) {
     this.stack.swap.scene = 'record';
     this.title.html(this.model);
     SchemaModel.fetch({
-      url: "" + base_uri + "/schema/" + this.model
+      url: "/schema/" + this.model
     });
     this.desc.html('&nbsp;');
     this.ids_header.html('');
@@ -1244,8 +1247,11 @@ Record = (function(_super) {
   };
 
   Record.prototype.fetchRecords = function() {
+    var field, url;
+    field = this.sort_field || 'id';
+    url = "/record/" + this.model + "/page/" + this.page + "?per_page=" + this.per_page + "&field=" + field + "&direction=" + this.sort_direction;
     return RecordModel.fetch({
-      url: "" + base_uri + "/record/" + this.model + "/page/" + this.page + "?per_page=" + this.per_page + "&direction=" + this.sort_direction
+      url: url
     });
   };
 
@@ -1683,7 +1689,7 @@ Schema = (function(_super) {
     if (!this.selected_field) {
       return;
     }
-    $.getJSON("" + base_uri + "/create_index/" + this.schema.name + "/" + this.selected_field, (function(_this) {
+    $.getJSON("/create_index/" + this.schema.name + "/" + this.selected_field, (function(_this) {
       return function(json) {
         _this.schema.task = json;
         return _this.task_init();
@@ -1700,7 +1706,7 @@ Schema = (function(_super) {
     if (!this.remove_index_property_field.val()) {
       return;
     }
-    $.getJSON("" + base_uri + "/remove_index/" + this.schema.name + "/" + (this.remove_index_property_field.val()), (function(_this) {
+    $.getJSON("/remove_index/" + this.schema.name + "/" + (this.remove_index_property_field.val()), (function(_this) {
       return function(json) {
         _this.schema.task = json;
         return _this.task_init();
@@ -1716,7 +1722,7 @@ Schema = (function(_super) {
     if (!this.remove_property_field.val()) {
       return;
     }
-    $.getJSON("" + base_uri + "/remove_property/" + this.schema.name + "/" + (this.remove_property_field.val()), (function(_this) {
+    $.getJSON("/remove_property/" + this.schema.name + "/" + (this.remove_property_field.val()), (function(_this) {
       return function(json) {
         _this.schema.task = json;
         return _this.task_init();
@@ -1732,7 +1738,7 @@ Schema = (function(_super) {
     if (!this.schema.task.id) {
       return;
     }
-    return $.getJSON("" + base_uri + "/task/resume/" + this.schema.task.id, (function(_this) {
+    return $.getJSON("/task/resume/" + this.schema.task.id, (function(_this) {
       return function(json) {
         _this.noprogress.css('display', 'none');
         _this.progress.css('display', 'block');
@@ -1752,7 +1758,7 @@ Schema = (function(_super) {
     if (!this.schema.task.id) {
       return;
     }
-    return $.getJSON("" + base_uri + "/task/stop/" + this.schema.task.id, (function(_this) {
+    return $.getJSON("/task/stop/" + this.schema.task.id, (function(_this) {
       return function(json) {
         _this.progress.css('display', 'none');
         _this.noprogress.css('display', 'block');
@@ -1772,7 +1778,7 @@ Schema = (function(_super) {
     if (!this.schema.task.id) {
       return;
     }
-    return $.getJSON("" + base_uri + "/task/pause/" + this.schema.task.id, (function(_this) {
+    return $.getJSON("/task/pause/" + this.schema.task.id, (function(_this) {
       return function(json) {
         _this.noprogress.css('display', 'none');
         _this.progress.css('display', 'block');
@@ -1794,7 +1800,7 @@ Schema = (function(_super) {
     if (!this.schema.task.id) {
       return;
     }
-    page = window.open("" + base_uri + "/task/dump/" + this.schema.task.id);
+    page = window.open("/task/dump/" + this.schema.task.id);
     return page.document.title = "Task Dump - " + this.schema.task.id;
   };
 
@@ -1882,7 +1888,7 @@ Schema = (function(_super) {
     this.stack.swap.scene = 'schema';
     this.title.html(this.model);
     SchemaModel.fetch({
-      url: "" + base_uri + "/schema/" + this.model
+      url: "/schema/" + this.model
     });
     return this.active();
   };

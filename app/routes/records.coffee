@@ -66,7 +66,7 @@ class Record extends Spine.Controller
   configure: (@model, @page=1) ->
     @stack.swap.scene = 'record'
     @title.html @model
-    SchemaModel.fetch url: "#{base_uri}/schema/#{@model}"
+    SchemaModel.fetch url: "/schema/#{@model}"
 
     @desc.html '&nbsp;'
 
@@ -91,7 +91,9 @@ class Record extends Spine.Controller
     @fetchRecords()
 
   fetchRecords: =>
-    RecordModel.fetch url: "#{base_uri}/record/#{@model}/page/#{@page}?per_page=#{@per_page}&direction=#{@sort_direction}"
+    field = @sort_field or 'id'
+    url = "/record/#{@model}/page/#{@page}?per_page=#{@per_page}&field=#{field}&direction=#{@sort_direction}"
+    RecordModel.fetch url: url
 
   createRecords: (records) =>
     @btn_add.css 'display', 'inline-block'
@@ -263,7 +265,6 @@ class Record extends Spine.Controller
     @sort_field = target.data 'field'
     @sort_direction = target.data 'dir'
     @configure @model
-
 
 
   render: =>

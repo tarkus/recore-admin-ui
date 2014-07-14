@@ -13,7 +13,7 @@ class RecordDelete extends Spine.Controller
     @modal.modal 'show'
 
   submit: =>
-    @record.destroy url: "#{base_uri}/record/#{@record.model}/#{@record.id}"
+    @record.destroy url: "/record/#{@record.model}/#{@record.id}"
 
   destroy: =>
     return unless @record.destroyed

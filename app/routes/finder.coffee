@@ -16,7 +16,7 @@ class Finder extends Spine.Controller
     @result.html ''
     self = @
     $.ajax
-      url: "#{base_uri}/util/finder"
+      url: "/util/finder"
       type: 'POST'
       data:
         key: @key_input.val()

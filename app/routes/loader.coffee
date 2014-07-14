@@ -18,7 +18,7 @@ class Loader extends Spine.Controller
     e.preventDefault()
     selected_model = encodeURIComponent @model_selection.val()
     key = @key_input.val()
-    Schema.fetch url: "#{base_uri}/util/loader?model=#{selected_model}&key=#{key}"
+    Schema.fetch url: "/util/loader?model=#{selected_model}&key=#{key}"
 
   render: ->
     @replace @template('loader')()
