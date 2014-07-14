@@ -1217,9 +1217,11 @@ Record = (function(_super) {
     return this.configure(this.model, this.page);
   };
 
-  Record.prototype.configure = function(model, page) {
+  Record.prototype.configure = function(model, page, sort_field, sort_direction) {
     this.model = model;
     this.page = page != null ? page : 1;
+    this.sort_field = sort_field != null ? sort_field : '';
+    this.sort_direction = sort_direction != null ? sort_direction : 'DESC';
     this.stack.swap.scene = 'record';
     this.title.html(this.model);
     SchemaModel.fetch({
@@ -1476,11 +1478,11 @@ Record = (function(_super) {
   };
 
   Record.prototype.sort = function(e) {
-    var target;
+    var direction, field, target;
     target = $(e.target);
-    this.sort_field = target.data('field');
-    this.sort_direction = target.data('dir');
-    return this.configure(this.model);
+    field = target.data('field');
+    direction = target.data('dir');
+    return this.configure(this.model, 1, field, direction);
   };
 
   Record.prototype.render = function() {

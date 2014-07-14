@@ -731,8 +731,17 @@ buf.push("\n        <td class=\"field-value\">\n          <div" + (jade.cls(['la
 else if (property.type == 'timestamp')
 {
 if (value && value.toString().length == 10) value = value * 1000
-time = value ? this.moment(value).format("YYYY-MM-DD HH:mm:ss ZZ") : '<i>EMPTY</i>'
-buf.push("\n        <td class=\"field-value\">\n          <pre>" + (jade.escape((jade_interp = time) == null ? '' : jade_interp)) + "</pre>\n        </td>");
+time = value ? this.moment(value).format("YYYY-MM-DD HH:mm:ss ZZ") : ''
+buf.push("\n        <td class=\"field-value\">\n          <pre>");
+if (time)
+{
+buf.push("" + (jade.escape((jade_interp = time) == null ? '' : jade_interp)) + "");
+}
+else
+{
+buf.push("<i>EMPTY</i>");
+}
+buf.push("</pre>\n        </td>");
 }
 else
 {
@@ -764,8 +773,17 @@ buf.push("\n        <td class=\"field-value\">\n          <div" + (jade.cls(['la
 else if (property.type == 'timestamp')
 {
 if (value && value.toString().length == 10) value = value * 1000
-time = value ? this.moment(value).format("YYYY-MM-DD HH:mm:ss ZZ") : '<i>EMPTY</i>'
-buf.push("\n        <td class=\"field-value\">\n          <pre>" + (jade.escape((jade_interp = time) == null ? '' : jade_interp)) + "</pre>\n        </td>");
+time = value ? this.moment(value).format("YYYY-MM-DD HH:mm:ss ZZ") : ''
+buf.push("\n        <td class=\"field-value\">\n          <pre>");
+if (time)
+{
+buf.push("" + (jade.escape((jade_interp = time) == null ? '' : jade_interp)) + "");
+}
+else
+{
+buf.push("<i>EMPTY</i>");
+}
+buf.push("</pre>\n        </td>");
 }
 else
 {

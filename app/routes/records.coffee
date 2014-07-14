@@ -63,7 +63,7 @@ class Record extends Spine.Controller
   reload: =>
     @configure @model, @page
 
-  configure: (@model, @page=1) ->
+  configure: (@model, @page=1, @sort_field='', @sort_direction='DESC') ->
     @stack.swap.scene = 'record'
     @title.html @model
     SchemaModel.fetch url: "/schema/#{@model}"
@@ -262,9 +262,9 @@ class Record extends Spine.Controller
 
   sort: (e) =>
     target = $(e.target)
-    @sort_field = target.data 'field'
-    @sort_direction = target.data 'dir'
-    @configure @model
+    field = target.data 'field'
+    direction = target.data 'dir'
+    @configure @model, 1, field, direction
 
 
   render: =>
