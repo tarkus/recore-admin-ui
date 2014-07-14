@@ -2,7 +2,7 @@
   "name": "recore-admin-ui",
   "description": "A web interface for RecoreAdmin",
   "author": "Tarkus Liu <tarkus@tarkus.im>",
-  "version": "0.4.13",
+  "version": "0.4.2",
   "repository": {
     "type": "git",
     "url": "git@github.com:tarkus/recore-admin-ui.git"
