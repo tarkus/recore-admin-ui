@@ -2,7 +2,7 @@
   "name": "recore-admin-ui",
   "description": "A web interface for RecoreAdmin",
   "author": "Tarkus Liu <tarkus@tarkus.im>",
-  "version": "0.4.32",
+  "version": "0.4.33",
   "repository": {
     "type": "git",
     "url": "git@github.com:tarkus/recore-admin-ui.git"
@@ -12,8 +12,7 @@
     "test": "brunch test",
     "prepublish": "brunch build --production"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "auto-reload-brunch": ">= 1.0 < 1.8",
     "brunch": "^1.7.14",
