@@ -86,7 +86,7 @@
               .col-lg-10
                 button.btn.btn-default.btn-dump(type="button" style="float: left")
                   span.fa.fa-search-plus
-                .progress
+                .progress.progress-striped.active
                   .progress-bar(
                     style="width: #{schema.task.id ? schema.task.progress : 0 }%")
                     span #{schema.task.id ? schema.task.progress : 0 }%

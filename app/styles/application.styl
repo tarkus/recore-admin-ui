@@ -1,3 +1,25 @@
+#wrapper
+  width: 100%
+  background: #f8f8f8
+
+#page-wrapper
+  position: inherit
+  margin: 0 0 0 250px
+  padding: 0 30px
+  border-left: 1px solid #e7e7e7
+  background: #ffffff
+
+.sidebar
+  z-index: 1
+  position: absolute
+  width: 250px
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td
+  border-color: #ddd !important
+
+.input-group > .form-control
+  box-shadow: none
+
 body.modal-open
   margin: 0
 
@@ -75,7 +97,10 @@ a
 
   li
     &:hover
-      background-color: #eee
+      background-color: #ccc
+
+    a:hover
+      background-color: #d9d9d9
 
     a.record
       display: inline-block
@@ -132,11 +157,11 @@ ul.sub
         margin-right: 8px
 
     .progress
-      height: 20px
+      height: 24px
       border-radius: 0
       .progress-bar
         span
-          line-height: 20px
+          line-height: 24px
           font-weight: bold
 
     &.paused
@@ -149,7 +174,7 @@ ul.sub
 
     .btn
       border: 0
-      padding: 4px 8px
+      padding: 6px 8px
       line-height: 1  
       color: #666
       &:hover

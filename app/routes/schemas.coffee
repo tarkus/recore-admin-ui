@@ -15,7 +15,7 @@ class Schema extends Spine.Controller
 
   configure: (@model) ->
     @stack.swap.scene = 'schema'
-    @title.html @model
+    @title.html "#{@model}'s Schema"
     SchemaModel.fetch url: "/schema/#{@model}"
     @active()
 

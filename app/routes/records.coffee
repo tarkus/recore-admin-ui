@@ -13,41 +13,40 @@ RecordDelete = require './record_delete'
 class Record extends Spine.Controller
 
   elements:
-    ".page-header .title": "title"
-    ".modal.detail": "detail_modal"
-    ".modal.action": "action_modal"
-    ".panel-heading": "desc"
-    ".tables": "table_container"
-    ".table-records": "table_records"
-    ".table-records thead": "records_header"
-    ".table-records tbody": "records"
-    ".table-ids": "table_ids"
-    ".table-ids thead": "ids_header"
-    ".table-ids tbody": "ids"
-    ".pagination": "pagination"
-    ".btn.add": "btn_add"
-    ".btn.view": "btn_view"
-    ".btn.edit": "btn_edit"
-    ".btn.delete": "btn_delete"
+    ".page-header .title": "title"              # Title
+    ".modal.detail": "detail_modal"             # Modal for detail view
+    ".modal.action": "action_modal"             # Modal for actions
+    ".panel-heading": "desc"                    # Subtitle
+    ".tables": "table_container"                # Tables container
+    ".table-records": "table_records"           # Record table
+    ".table-records thead": "records_header"    # Record table's header
+    ".table-records tbody": "records"           # Record table's body
+    ".table-ids": "table_ids"                   # ID table
+    ".table-ids thead": "ids_header"            # ID table's header
+    ".table-ids tbody": "ids"                   # ID table's body
+    ".pagination": "pagination"                 # Pagination container
+    ".btn.add": "btn_add"                       # 'New' button
+    ".btn.view": "btn_view"                     # 'View' button
+    ".btn.edit": "btn_edit"                     # 'Edit' button
+    ".btn.delete": "btn_delete"                 # 'Delete' button
 
   events:
-    "click .page-header button.reload": "reload"
+    "click .page-header button.reload": "reload"  # Click on reload button
 
-    "click .record-value": "detail"
+    "click .record-value": "detail"               # Click on field
+    "click .modal.detail .content": "selectValue" # Click on field value 
 
-    "click .record-id": "selectRow"
-    "click .record-id.selected": "deselectRow"
+    "click .record-id": "selectRow"               # Click on row handler
+    "click .record-id.selected": "deselectRow"    # Click on row handler
 
-    "click .modal.detail .content": "selectValue"
+    "click .actions .add": "showAddModal"         # Click on 'New' button
+    "click .actions .view": "showViewModal"       # Click on 'View' Button
+    "click .actions .edit": "showEditModal"       # Click on 'Edit' Button
+    "click .actions .delete": "showDeleteModal"   # Click on 'Delete' Button
 
-    "click .actions .add": "showAddModal"
-    "click .actions .view": "showViewModal"
-    "click .actions .edit": "showEditModal"
-    "click .actions .delete": "showDeleteModal"
+    "click .modal.action .btn-primary": "submit"  # Click on 'Submit'
 
-    "click .modal.action .btn-primary": "submit"
-
-    "click .sort": "sort"
+    "click .sort": "sort"                         # Click on sorting field
 
 
   constructor: ->
